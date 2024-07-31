@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Event Registration Form</title>
+</head>
+<body>
+    <h2>Event Registration Form</h2>
+    <form action="/submit_registration" method="post">
+        <label>Full Name:</label>
+        <input type="text"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email"><br><br>
+
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="tel"><br><br>
+
+        <label for="eventSelection">Event Selection:</label>
+        <select id="eventSelection" name="eventSelection" required>
+            <option value="Workshop">Workshop</option>
+            <option value="Seminar">Seminar</option>
+            <option value="Conference">Conference</option>
+        </select><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
